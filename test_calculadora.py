@@ -2,7 +2,7 @@ import pytest
 from calculadora import somar, subtrair, multiplicar, dividir
 
 def test_somar():
-  assert somar(2, 3) == 6
+  assert somar(2, 3) == 5
 
 def test_subtrair():
   assert subtrair(10, 4) == 6
